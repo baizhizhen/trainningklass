@@ -5,6 +5,6 @@
 // });
 
 require(['math','string'],function (math,string) {
-	alert(math.add(2,2));
+	console.log(math.add(2,2));
 	console.log(string.split('jason_bai','_'));
 })
